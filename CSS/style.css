@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+     height:100%
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #191970
+}
+
+
+.nav-bar ul li {
+     font-size: 30px;
+     letter-spacing: 2px;
+     transition-property: font-size;
+     transition-duration: 1s;
+     transition-duration: 2s;
+     height: 2s;
+     width: 2s;
+     display: inline-block;
+     overflow: hidden;
+     font-weight: bold;
+} 
+
+.nav-bar{
+text-align: center;
+background-color: #ee273d;
+
+
+}
+
+.rodape {
+  margin-top: auto ;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  position:static;
+  z-index: 100;
+  background-color:#ee273d;
+  color: white;
+  top:0;
+  top: auto;
+  line-height:50px;
+}
+
+
+
+a {
+  padding: 8px;
+
+}
+
+.nav-bar a {
+  float: left;
+  font-size: 16px;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+
+/*
+
+.logo {
+    padding-left: 20px;
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}  */
+
+
+section {
+    padding-left: 20px;
+    text-decoration: none;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+
+section#texto {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+/*
+.rodape {
+  position:fixed;
+  margin: 0;
+  top: auto;
+  line-height:50px;
+  background-color:#ee273d;
+  color: white;
+  bottom: 0;
+ text-align: center;
+} */
+
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+    
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+}  
+
+#certificado {
+    display: flex;
+    height: 1020px;
+    width: 840px;
+    height: auto;
+    justify-content: center;
+}
+
+#vd_estudantil {
+    display: flex;
+    height: auto;
+    height: 240px;
+    width: 180px;
+    transition:transform .2s;
+    padding-top: 30px;
+}
+#vd_estudantil:hover {
+  transform: scale(1.5);
+}
+
+
+#bootstrap_site {
+    display: flex;
+    height: auto;
+    height: 240px;
+    width: 180px;
+    transition:transform .2s;
+    padding-top: 20px;
+}
+
+
+#bootstrap_site:hover {
+  transform: scale(1.5);
+}
+/*
+img {
+    transition:transform .2s;
+    margin:0 auto;
+    padding-left: 25px;
+    padding-top:50px;
+    
+} 
+img:hover {
+  transform: scale(1.5);
+}
+
+/*
+.port {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+ #remi_site {
+    display: flex;
+    height: auto;
+    height: 240px;
+    width: 180px;
+    transition:transform .2s;
+    padding-top: 20px;
+}
+#remi_site:hover {
+  transform: scale(1.5);
+}
+
+.port {
+  position: absolute,left;
+  padding-left: 20px;
+}
+
+#certificado2 {
+    height: 1020px;
+    width: 840px;
+    height: auto;
+}
+.cert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.perfil {
+  position: absolute;
+  top: 70px;      
+  right: 0;
+  padding: 10px 20px;
+  max-width: 400px; 
+  margin-right: 20px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.info {
+  position: absolute;
+  top: 500px;      
+  right: 0;
+  padding: 10px 20px;
+  max-width: 400px; 
+  margin-right: 20px;
+  color: white;
+  font-family: system-ui, -apple-system
+}
+
+
+#cursos {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding-top: 150px;
+
+}
+
+
+.rede {
+  text-align: center;
+  padding-top: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.perfil img {
+  display: block;
+  margin: 0 auto 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; 
+
+}
